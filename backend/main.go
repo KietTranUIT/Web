@@ -22,12 +22,9 @@ func main() {
 var a, b int
 
 fmt.Printf("Enter values for a and b: ")
-<<<<<<< HEAD
+
 fmt.Scanln(&a, &b)
 fmt.Printlf("a = %d and b = %d", a, b)
-=======
-
->>>>>>> master
 
 fmt.Printf("a + b = %d\n", add(a, b))
 fmt.Printf("a - b = %d\n", sub(a, b))
